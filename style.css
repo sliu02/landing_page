@@ -74,3 +74,8 @@ button {
     font-size: 16px;
     font-weight: bolder;
 }
+
+.info img {
+    height: auto;
+    width: 150px;
+}
