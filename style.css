@@ -22,13 +22,13 @@ ul {
     display: flex;
     gap: 30px;
     font-size: 14px;
-    margin-right: 80px;
+    margin-right: 160px;
 }
 
 .header .text {
     font-size: 18px;
     font-weight: bolder;
-    margin-left: 80px;
+    margin-left: 160px;
 }
 
 .first {
@@ -42,14 +42,14 @@ ul {
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin-left: 80px;
+    margin-left: 160px;
     gap: 20px;
 }
 
 .right-content img {
     height: auto;
     width: 325px;
-    margin: 80px;
+    margin: 160px;
 }
 
 .left-content .bold-text {
