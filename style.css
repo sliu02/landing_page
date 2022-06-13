@@ -136,9 +136,15 @@ button {
 }
 
 .third .subtext{
-    text-align: end;
-    margin-right:  390px;
+    display: flex;
     font-weight: bolder;
+}
+
+.third .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .fourth {
