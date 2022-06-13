@@ -20,13 +20,57 @@ a {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 30px;
     font-size: 14px;
-    margin-right: 40px;
+    margin-right: 80px;
 }
 
 .header .text {
     font-size: 18px;
     font-weight: bolder;
-    margin-left: 40px;
+    margin-left: 80px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 80px;
+    gap: 20px;
+}
+
+.right-content img {
+    height: auto;
+    width: 325px;
+    margin: 80px;
+}
+
+.left-content .bold-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.left-content .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 12px;
+    border: 1px;
+    padding: 8px 16px;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
 }
